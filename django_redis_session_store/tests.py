@@ -1,7 +1,7 @@
 import time
 from django.test import TestCase
 
-from django_redis_session.session_store import SessionStore
+from django_redis_session_store.session_store import SessionStore
 
 
 class RedisSessionTestCase(TestCase):

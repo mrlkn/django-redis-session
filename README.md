@@ -1,4 +1,4 @@
-# Django Redis Session
+# Django Redis Session Store
 
 Django Redis Session is a Django session backend that uses Redis as its session store. This package allows multiple Django applications to share user sessions by using the same Redis database as a common session store.
 
@@ -7,14 +7,14 @@ Django Redis Session is a Django session backend that uses Redis as its session 
 You can install Django Redis Session with pip:
 
 ```bash
-pip install django_redis_session
+pip install django_redis_session_store
 ```
 ## Configuration
 To use Django Redis Session, you need to configure several settings in your Django project's settings.py file:
 
 ```python
 
-SESSION_ENGINE = 'django_redis_session.session_store'
+SESSION_ENGINE = 'django_redis_session_store.session_store'
 SESSION_REDIS_HOST = 'localhost'
 SESSION_REDIS_PORT = 6379
 SESSION_REDIS_DB = 0

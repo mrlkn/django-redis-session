@@ -5,7 +5,7 @@ from django.conf import settings
 from django.contrib.sessions.backends.base import SessionBase, CreateError
 from django.core import signing
 
-from django_redis_session.redis_server import RedisServer
+from django_redis_session_store.redis_server import RedisServer
 from django.utils.encoding import force_str as force_unicode
 
 

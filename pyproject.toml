@@ -2,7 +2,7 @@
 requires = ["setuptools", "wheel"]
 
 [project]
-name = "django-redis-session"
+name = "django-redis-session-store"
 version = "0.1.0"
 description = "A Django session backend with Redis storage."
 readme = "README.md"
@@ -10,7 +10,7 @@ authors = [
     {name = "Ömer Alkın", email = "omeralkin7@gmail.com"},
 ]
 license = { file = "LICENSE" }
-keywords = ["django", "session", "redis"]
+keywords = ["django", "session", "redis", "store"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
