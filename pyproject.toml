@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 
 [project]
 name = "django-redis-session-store"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Django session backend with Redis storage."
 readme = "README.md"
 authors = [
@@ -23,5 +23,5 @@ classifiers = [
 
 [project.urls]
 Home = "https://github.com/mrlkn/django-redis-session"
-Documentation = "https://github.com/mrlkn/django-redis-session/README.md"
-Source = "https://github.com/mrlkn/django-redis-session"
+Documentation = "https://github.com/mrlkn/django-redis-session/blob/master/README.md"
+Source = "https://github.com/mrlkn/django-redis-session/tree/master/django_redis_session_store"
