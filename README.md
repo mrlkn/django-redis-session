@@ -13,7 +13,7 @@ pip install django_redis_session_store
 To use Django Redis Session, you need to configure several settings in your Django project's settings.py file:
 
 ```python
-
+SHARED_SECRET_KEY = "your-secret-key-between-apps"
 SESSION_ENGINE = 'django_redis_session_store.session_store'
 SESSION_REDIS_HOST = 'localhost'
 SESSION_REDIS_PORT = 6379
